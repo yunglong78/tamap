@@ -1,0 +1,23 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+    <objectAnimator
+        android:duration="3000"
+        android:propertyName="pathData"
+        android:valueFrom="M15,20a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z"
+        android:valueTo  ="M10,20a10,10 0 1,0 20,0a10,10 0 1,0 -20,0z"
+        android:valueType="pathType"
+        android:repeatCount="-1"
+        android:repeatMode="restart"
+    />
+
+    <objectAnimator
+            android:duration="3000"
+            android:propertyName="fillAlpha"
+            android:valueFrom="0.6"
+            android:valueTo  ="0.2"
+            android:valueType="floatType"
+            android:repeatCount="-1"
+            android:repeatMode="restart"
+        />
+
+</set>
+

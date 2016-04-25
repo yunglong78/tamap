@@ -1,0 +1,6 @@
+<animated-vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:drawable="@drawable/marker">
+    <target android:name="halo" android:animation="@animator/glow" />
+    <!--<target android:name="halo" android:animation="@anim/rotate" />-->
+</animated-vector>

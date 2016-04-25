@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TouchAir</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_demo">Demo</string>
+    <string name="action_user">User</string>
+    <string name="location_service_started">location service started</string>
+    <string name="location_service_stopped">location service stopped</string>
+    <string name="location_service_label">Touchair location service</string>
+    <string name="location_service_connected">location service connected</string>
+    <string name="location_service_disconnected">location service disconnected</string>
+    <string name="touchair">Touchair</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

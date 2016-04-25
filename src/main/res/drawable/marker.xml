@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+        android:viewportWidth="40"
+        android:viewportHeight="40"
+        android:width="40dp"
+        android:height="40dp"
+>
+
+    <!--<path-->
+            <!--android:name="border"-->
+            <!--android:strokeColor="#ff0000"-->
+            <!--android:pathData="M0,0h40v40h-40z"-->
+    <!--/>-->
+
+    <group
+
+            android:pivotX="20"
+            android:pivotY="20"
+            android:scaleX="2"
+            android:scaleY="2"
+
+    >
+
+
+
+    <path
+            android:name="halo"
+            android:strokeWidth="0"
+            android:strokeColor="#ffffff"
+            android:fillAlpha="0.5"
+            android:fillColor="#2b98f0"
+            android:pathData="M10,20a10,10 0 1,0 20,0a10,10 0 1,0 -20,0z" />
+
+    <path
+            android:strokeWidth="1"
+            android:fillColor="#2b98f0"
+            android:strokeColor="#ffffff"
+            android:pathData="M15,20a5,5 0 1,0 10,0a5,5 0 1,0 -10,0z" />
+    </group>
+</vector>
